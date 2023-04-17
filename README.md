@@ -22,5 +22,11 @@ PREPROCESSING
 
 Resizing (224*224 ,3) of the input image and Normalization .
 
+Dual-encoder architecture with image encoder and a text encoder. The text encoder embeds text into a mathematical space while the image encoder embeds images into a mathematical space
+Image encoding  - ViT – B/32 
+Text encoding  - " transformer-based language model"  -> masked self attention transformer
+				GPT 2
+ CLIP is then trained to predict how likely the image corresponds to the text using contrastive pre-training.
+
 
 
